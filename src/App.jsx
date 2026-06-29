@@ -6,7 +6,7 @@ import StylingConcierge from './components/StylingConcierge';
 import CareGuide from './components/CareGuide';
 import OwnerLogin from './components/OwnerLogin';
 import OwnerDashboard, { loadNewArrivals } from './components/OwnerDashboard';
-import { Sparkles, MessageCircle, MapPin, Award, Info, Diamond, Lock, Instagram } from 'lucide-react';
+import { Sparkles, MessageCircle, MapPin, Award, Info, Diamond, Lock } from 'lucide-react';
 
 export default function App() {
   const [showWelcome, setShowWelcome] = useState(true);
@@ -245,7 +245,7 @@ export default function App() {
                 onMouseEnter={e => e.currentTarget.style.opacity = '0.85'}
                 onMouseLeave={e => e.currentTarget.style.opacity = '1'}
               >
-                <Instagram size={14} /> Follow us on Instagram
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg> Follow us on Instagram
               </a>
             </div>
 
